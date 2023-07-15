@@ -28,6 +28,7 @@ const galleryImg = images.reduce((acc, { url, alt }) => {
 galleryList.insertAdjacentHTML("beforeend", galleryImg);
 
 galleryList.style.display = "flex";
+galleryList.style.gap = "20px";
 
 const imgItem = document.querySelectorAll(`img`);
 
