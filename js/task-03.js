@@ -28,6 +28,7 @@ const imgItem = document.querySelectorAll(`img`);
 
 imgItem.forEach((item) => {
   item.style.width = "250px";
+  item.style.height = "200px";
 });
 
 // // const galleryList = document.querySelector(".gallery");
