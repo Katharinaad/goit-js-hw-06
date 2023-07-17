@@ -7,10 +7,12 @@ function onSubmit(event) {
   console.dir(form);
 
   const userValue = { email: form.email.value, password: form.password.value };
-  console.log(userValue);
 
   if (form.email.value === "" || form.password.value === "") {
-    alert("All fields must be filled in");
+    alert("All fields must be filled in!");
+  } else {
+    alert("The form has been submitted!");
+    console.log(userValue);
   }
 
   form.reset();
