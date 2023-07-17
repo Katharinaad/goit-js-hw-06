@@ -25,3 +25,16 @@ button {
 .gallery {
   list-style: none;
 }
+
+#boxes {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: teal;
+  width: 30px;
+  height: 30px;
+}
