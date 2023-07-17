@@ -6,7 +6,8 @@ function onSubmit(event) {
   event.preventDefault();
   console.dir(form);
 
-  console.log(`Email: ${form.email.value} Password: ${form.password.value}`);
+  const userValue = { email: form.email.value, password: form.password.value };
+  console.log(userValue);
 
   if (form.email.value === "" || form.password.value === "") {
     alert("All fields must be filled in");
